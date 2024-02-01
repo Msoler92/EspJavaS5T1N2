@@ -38,4 +38,5 @@ public class FlowerController {
     public ResponseEntity<List<FlowerDTO>> getAllFlowers() {
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
+
 }
